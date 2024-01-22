@@ -7,5 +7,20 @@
 
 .container {
   max-width: 1200px;
-  padding: 0 30px;
+  padding: 0 15%;
 }
+
+/* Start Header */
+.header__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: space-between;
+  align-items: center;
+}
+
+.header .ul .li {
+  display: inline-block;
+}
+
+/* End Header */
