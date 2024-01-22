@@ -38,10 +38,23 @@
 }
 
 
-
+@keyframes arrowDown {
+  from {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
 
 .header__nav ul li a {
   text-decoration: none;
+}
+
+.header__nav ul li a:hover {
+  animation: arrowDown 0.5s linear 1;
 }
 
 .header__nav .btn-gradient {
