@@ -7,20 +7,45 @@
 
 .container {
   max-width: 1200px;
-  padding: 0 15%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /* Start Header */
 .header__content {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-self: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
-.header .ul .li {
-  display: inline-block;
+.header__nav {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__nav ul li {
+  margin: 55px 15px;
+}
+
+
+
+
+.header__nav ul li a {
+  text-decoration: none;
+}
+
+.header__nav .btn-gradient {
+  display: inline;
 }
 
 /* End Header */
